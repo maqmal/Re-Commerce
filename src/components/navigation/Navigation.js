@@ -5,7 +5,6 @@ import { ReactComponent as Logo } from '../../assets/crown.svg';
 import { auth } from '../../firebase/FirebaseUtils';
 
 const Navigation = ({ currentUser }) => {
-    console.log(currentUser)
     return (
         <div className='header'>
             <Link to='/' className='logo-container'>
